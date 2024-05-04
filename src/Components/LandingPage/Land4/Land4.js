@@ -20,9 +20,9 @@ const Land4 = () => {
                 <h4>Who we are</h4>
                 <Img src={arr2} alt='arr right'/>
             </Trade>
-            <H1>Reliability, productive, Opportunities</H1>
+            <H1>Reliability, Productive, Opportunities</H1>
             <p>At Apextradepro, we see investing differently. Today's financial system is complex, exclusive and expensive - making it hard for the typical person to start investing.</p>
-            <p>So, we're building a platform without digital walls and complex barriers. A platform that empowers you to see new possibilities for your money -  and helps make them a reality.</p>
+            <p>So, We built a platform without digital walls and complex barriers. A platform that empowers you to see new possibilities for your money -  and helps make them a reality.</p>
             <p>Apextradepro is backed by a team of world-class experts and the best technology talent. To stay at the forefront of innovation, we're always working on strengthening our position as Europe's leading digital asset platform.</p>
             <ButtonHold>
                 <Button to="/aboutus">Discover More</Button>
