@@ -37,11 +37,11 @@ const SignUp = () => {
     console.log(message);
 
     const Data = {fullName, userName, email, retypeEmail, password, confirmPassword, phoneNumber}
-    const url = "https://swiftearnprime.vercel.app/api/register"
+    const url = "https://mr-ubani-back-end-apextradepro.vercel.app/api/register"
 
     // console.log(url)
 
-    const urll = "https://swiftearnprime.onrender.com/api/sandOtp"
+    const urll = "https://mr-ubani-back-end-apextradepro.vercel.app/api/signupemailsand"
     const sandOtp = () => {
       Axios.post(urll, {email})
       .then(res => {
@@ -62,15 +62,15 @@ const SignUp = () => {
         setMessage({ error: true, msg: res.data.message});
         sandOtp()
         const getId = JSON.parse(localStorage.getItem("User"))
-        Swal.fire({
-          icon: 'success',
-          title: 'Success',
-          text: "Check your email for account verification to continue",
-       }) 
+      //   Swal.fire({
+      //     icon: 'success',
+      //     title: 'Success',
+      //     text: "Thanks ",
+      //  }) 
         console.log("this is the data", getId.data._id)
           setTimeout(() => {
             // navigate(`/dashboard/${getId.data._id}`)
-            window.location.href = `https://accountswiftearnprime.vercel.app/#/${getId.data._id}`
+            window.location.href = `https://apextradepro-account.vercel.app`
             // navigate(`/verify/${getId.data._id}`)
             console.log(getId._id);
           }, [2000]);

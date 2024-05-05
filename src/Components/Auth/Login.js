@@ -26,10 +26,10 @@ const Login = () => {
 
     console.log(message);
     
-    const url = "https://swiftearnprime.vercel.app/api/login"
+    const url = "https://mr-ubani-back-end-apextradepro.vercel.app/api/login"
   const Data = {email, password}
 
-  const urll = "https://swiftearnprime.onrender.com/api/loginemail"
+  const urll = "https://mr-ubani-back-end-apextradepro.vercel.app/api/loginemail"
 
   const loginemail = () => {
     Axios.post(urll, {email})
@@ -57,7 +57,7 @@ const Login = () => {
       console.log(getId._id);
      setMessage({ error: true, msg: "successfully!" });
     setTimeout(() => {
-       window.location.href = `https://accountswiftearnprime.vercel.app/#/${getId._id}`
+       window.location.href = `https://apextradepro-account.vercel.app/#/${getId._id}`
       // navigate(`/dashboard/${getId._id}`)
       // window.location.reload()
     }, [2000]);
