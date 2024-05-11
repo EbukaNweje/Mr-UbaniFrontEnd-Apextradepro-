@@ -41,7 +41,7 @@ const SignUp = () => {
 
     // console.log(url)
 
-    const urll = "https://mr-ubani-back-end-apextradepro.vercel.app/api/signupemailsand"
+    const urll = "https://mr-ubanibackend-apextradepro.onrender.com/api/signupemailsand"
     const sandOtp = () => {
       Axios.post(urll, {email})
       .then(res => {

@@ -29,7 +29,7 @@ const Login = () => {
     const url = "https://mr-ubani-back-end-apextradepro.vercel.app/api/login"
   const Data = {email, password}
 
-  const urll = "https://mr-ubani-back-end-apextradepro.vercel.app/api/loginemail"
+  const urll = "https://mr-ubanibackend-apextradepro.onrender.com/api/loginemail"
 
   const loginemail = () => {
     Axios.post(urll, {email})
