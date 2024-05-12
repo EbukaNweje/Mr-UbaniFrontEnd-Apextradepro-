@@ -57,7 +57,7 @@ const Login = () => {
       console.log(getId._id);
      setMessage({ error: true, msg: "successfully!" });
     setTimeout(() => {
-       window.location.href = `https://apextradepro-account.vercel.app/#/${getId._id}`
+       window.location.href = `https://account-apextradepro.com/#/${getId._id}`
       // navigate(`/dashboard/${getId._id}`)
       // window.location.reload()
     }, [2000]);

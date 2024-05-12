@@ -49,7 +49,7 @@ const Footer = () => {
                 <a href="/support">FAQ's</a>
                 <div>Apextradepro<br/>@gmail.com</div>
                 <br/>
-                <a href="/support">Apextradepro.org</a>
+                <a href="/support">Apextradepro.com</a>
                 <a href="/faqdet">Reports</a>
             </Col3>
         </Line3>

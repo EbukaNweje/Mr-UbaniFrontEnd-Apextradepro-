@@ -49,7 +49,7 @@ const SideNav = ({setNav}) =>{
                     <Line></Line>
                     <Span to='/affiliate'  onClick={()=>{
                 setNav(false);
-            }}>Affiliate Program</Span>
+            }}>Investment Program</Span>
                     <Line></Line>
                     <Span to='/support'  onClick={()=>{
                 setNav(false);

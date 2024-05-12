@@ -14,7 +14,7 @@ const Footer = () => {
     <Container>
         <Wrapper>
             <LeftDiv>
-                <Logo>SwiftEarnPrime @2015</Logo>
+                <Logo>Apextradepro @2024</Logo>
                 {/* <Dot></Dot>
                 <Span to='/news'>News</Span>
                 <Dot></Dot>
