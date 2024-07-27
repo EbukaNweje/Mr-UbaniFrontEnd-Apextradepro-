@@ -47,7 +47,7 @@ const Footer = () => {
             <Col3>
             <span style={{fontWeight: "bold", fontSize: "20px", marginBottom: "10px", color: "#D77600"}}>Contact Information</span>
                 <a href="/support">FAQ's</a>
-                <div>Apextradepro<br/>@gmail.com</div>
+                <div>apextradespros<br/>@gmail.com</div>
                 <br/>
                 <a href="/support">Apextradepro.com</a>
                 <a href="/faqdet">Reports</a>
